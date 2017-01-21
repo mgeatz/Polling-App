@@ -52,7 +52,7 @@ npm install
 npm start
 ```
 
-See it at [`localhost:8000/index.html`][local-app-url].
+See it at [local-app-url](http://localhost:8000/index.html).
 
 ## Testing
 
@@ -60,7 +60,7 @@ There are two kinds of tests here: Unit tests and end-to-end tests.
 
 #### Running Unit Tests
 
-The unit tests are written in [Jasmine][jasmine], and ran with the [Karma][karma] test runner. 
+The unit tests are written in Jasmine, and ran with the Karma test runner. 
  
 Run all the unit tests using this npm script:
 
@@ -74,12 +74,10 @@ Run a single unit test and then exit using this npm script:
 npm run test-single-run
 ```
 
-
-<a name="e2e-testing"></a>
 #### Running End-to-End Tests
 
-The end-to-end tests are written in [Jasmine][jasmine]. These tests
-are run with the [Protractor][protractor] End-to-End test runner. 
+The end-to-end tests are written in Jasmine. These tests
+are run with the Protractor End-to-End test runner. 
 
 Before running e2e tests, make sure you've start the web server.
 
