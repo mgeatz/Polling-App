@@ -7,12 +7,19 @@ and displayed on an interactive USA map. This application uses AngularJS version
 Jasmine and Protractor for Angular end-to-end testing, SASS, Gulp for transpilation, Travis for CI/CD, Heroku, RESTful API written in Java, 
 Cucumber for API tests.
 
-Demonstrates knowledge of:
+Application Task Status:
 
-AngularJS 1.6.1
-Karma
-Jasmine
-Protractor
+- [x] AngularJS 1.6.1
+- [x] Karma
+- [x] Jasmine
+- [x] Protractor
+- [x] Code Covereage
+- [x] CI/CD via Travis
+- [x] SASS
+- [x] Gulp
+- [ ] RESTful Java API
+- [ ] Hosting
+- [ ] App is feature complete
 
 ## Getting Started
 
