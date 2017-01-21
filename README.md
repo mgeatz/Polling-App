@@ -1,5 +1,7 @@
 # Simple Polling Application
 
+[![Build Status](https://travis-ci.org/mgeatz/pollingApp-Angular1.svg?branch=master)](https://travis-ci.org/mgeatz/pollingApp-Angular1)
+
 This project is a responsive polling application, asking a yes / no question, the data and geo from which is aggregated by State 
 and displayed on an interactive USA map. This application uses AngularJS version 1.6.1, Jasmine and Karma for Angular unit testing, 
 Jasmine and Protractor for Angular end-to-end testing, SASS, Gulp for transpilation, Travis for CI/CD, Heroku, RESTful API written in Java, 
