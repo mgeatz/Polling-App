@@ -5,6 +5,13 @@ and displayed on an interactive USA map. This application uses AngularJS version
 Jasmine and Protractor for Angular end-to-end testing, SASS, Gulp for transpilation, Travis for CI/CD, Heroku, RESTful API written in Java, 
 Cucumber for API tests.
 
+Demonstrates knowledge of:
+
+AngularJS 1.6.1
+Karma
+Jasmine
+Protractor
+
 ## Getting Started
 
 To test this application locally you can simply clone the repository and install the dependencies. You must have Node.js
