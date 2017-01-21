@@ -22,13 +22,27 @@ module.exports = function(config) {
       'karma-chrome-launcher',
       'karma-firefox-launcher',
       'karma-jasmine',
-      'karma-junit-reporter'
+      'karma-junit-reporter',
+      'karma-coverage'
     ],
 
     junitReporter: {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
-    }
+    },
+
+    preprocessors: { 'app/view*/**/*.js': ['coverage'] },
+
+    coverageReporter: {
+      reporters: [
+        // generates ./coverage/lcov.info
+        {type:'lcovonly', subdir: '.'},
+        // generates ./coverage/coverage-final.json
+        {type:'json', subdir: '.'},
+      ]
+    },
+
+    reporters: ['progress', 'coverage']
 
   });
 };
