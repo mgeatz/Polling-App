@@ -1,0 +1,13 @@
+body {
+  background-color: $darkGray;
+  main {
+    margin: auto;
+    text-align: center;
+  }
+  nav {
+    background-color: $dark;
+    ul {
+      list-style: none;
+    }
+  }
+}

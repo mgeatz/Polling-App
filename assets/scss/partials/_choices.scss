@@ -1,0 +1,22 @@
+.choices {
+  margin-bottom: 5%;
+  .yes, .no {
+    @media screen and (min-width: $break-large) {
+      margin: 10px;
+    }
+    background-color: $dark;
+    color: $turq;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid $dark;
+    transition: background-color 0.5s ease;
+    &:hover {
+      cursor: pointer;
+      background-color: $turq;
+      color: $dark;
+    }
+  }
+  .no {
+    float: right;
+  }
+}

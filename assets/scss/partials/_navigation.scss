@@ -1,0 +1,31 @@
+nav {
+  .nav {
+    li {
+      a {
+        color: $red;
+        &:hover {
+          color: $dark;
+          background-color: $red;
+        }
+        &:focus {
+          color: $red;
+          background-color: $dark;
+        }
+        &:active {
+          color: $dark;
+          background-color: $red;
+        }
+      }
+    }
+    .active {
+      color: $dark;
+      background-color: $red;
+    }
+  }
+  .navbar-toggle {
+    border: 1px solid $transBlue;
+    .icon-bar {
+      background-color: $transBlue;
+    }
+  }
+}
