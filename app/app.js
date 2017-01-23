@@ -4,5 +4,6 @@
 var yesNoApp = angular.module('yesNoApp', [
   'ngRoute',
   'yesNoApp.v1',
-  'yesNoApp.v2'
+  'yesNoApp.v2',
+  'yesNoApp.nav'
 ]);

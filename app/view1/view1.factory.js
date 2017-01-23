@@ -1,0 +1,184 @@
+angular.module('yesNoApp')
+
+.factory('Charts', function(){
+
+  return {
+    sayHello: function(text){
+      return "Welcome " + text + "";
+    },
+    buildMap: function(){
+      var map = AmCharts.makeChart( "chartdiv", {
+        "type": "map",
+        "theme": "light",
+        "colorSteps": 10,
+        "dataProvider": {
+          "map": "usaLow",
+          "areas": [ {
+            "id": "US-AL",
+            "value": 1
+          }, {
+            "id": "US-AK",
+            "value": 2
+          }, {
+            "id": "US-AZ",
+            "value": 3
+          }, {
+            "id": "US-AR",
+            "value": 0
+          }, {
+            "id": "US-CA",
+            "value": 0
+          }, {
+            "id": "US-CO",
+            "value": 0
+          }, {
+            "id": "US-CT",
+            "value": 0
+          }, {
+            "id": "US-DE",
+            "value": 0
+          }, {
+            "id": "US-FL",
+            "value": 0
+          }, {
+            "id": "US-GA",
+            "value": 0
+          }, {
+            "id": "US-HI",
+            "value": 0
+          }, {
+            "id": "US-ID",
+            "value": 0
+          }, {
+            "id": "US-IL",
+            "value": 0
+          }, {
+            "id": "US-IN",
+            "value": 0
+          }, {
+            "id": "US-IA",
+            "value": 0
+          }, {
+            "id": "US-KS",
+            "value": 0
+          }, {
+            "id": "US-KY",
+            "value": 0
+          }, {
+            "id": "US-LA",
+            "value": 0
+          }, {
+            "id": "US-ME",
+            "value": 0
+          }, {
+            "id": "US-MD",
+            "value": 0
+          }, {
+            "id": "US-MA",
+            "value": 0
+          }, {
+            "id": "US-MI",
+            "value": 0
+          }, {
+            "id": "US-MN",
+            "value": 0
+          }, {
+            "id": "US-MS",
+            "value": 0
+          }, {
+            "id": "US-MO",
+            "value": 0
+          }, {
+            "id": "US-MT",
+            "value": 0
+          }, {
+            "id": "US-NE",
+            "value": 0
+          }, {
+            "id": "US-NV",
+            "value": 0
+          }, {
+            "id": "US-NH",
+            "value": 0
+          }, {
+            "id": "US-NJ",
+            "value": 0
+          }, {
+            "id": "US-NM",
+            "value": 0
+          }, {
+            "id": "US-NY",
+            "value": 0
+          }, {
+            "id": "US-NC",
+            "value": 0
+          }, {
+            "id": "US-ND",
+            "value": 0
+          }, {
+            "id": "US-OH",
+            "value": 0
+          }, {
+            "id": "US-OK",
+            "value": 0
+          }, {
+            "id": "US-OR",
+            "value": 0
+          }, {
+            "id": "US-PA",
+            "value": 0
+          }, {
+            "id": "US-RI",
+            "value": 0
+          }, {
+            "id": "US-SC",
+            "value": 0
+          }, {
+            "id": "US-SD",
+            "value": 0
+          }, {
+            "id": "US-TN",
+            "value": 0
+          }, {
+            "id": "US-TX",
+            "value": 0
+          }, {
+            "id": "US-UT",
+            "value": 0
+          }, {
+            "id": "US-VT",
+            "value": 0
+          }, {
+            "id": "US-VA",
+            "value": 0
+          }, {
+            "id": "US-WA",
+            "value": 0
+          }, {
+            "id": "US-WV",
+            "value": 0
+          }, {
+            "id": "US-WI",
+            "value": 0
+          }, {
+            "id": "US-WY",
+            "value": 0
+          } ]
+        },
+        "areasSettings": {
+          "autoZoom": true
+        },
+        "valueLegend": {
+          "right": 10,
+          "minValue": "NO",
+          "maxValue": "YES"
+        },
+        "export": {
+          "enabled": true
+        }
+      });
+      return map;
+    }
+  }
+
+});

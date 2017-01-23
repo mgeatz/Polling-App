@@ -4,21 +4,29 @@ nav {
       a {
         color: $red;
         &:hover {
-          color: $dark;
+          color: $darkGray;
           background-color: $red;
         }
         &:focus {
           color: $red;
-          background-color: $dark;
+          background-color: $darkGray;
         }
         &:active {
-          color: $dark;
+          color: $darkGray;
           background-color: $red;
+        }
+        .active {
+          color: $darkGray;
+          background-color: $red;
+          & :target {
+            color: $darkGray;
+            background-color: $red;
+          }
         }
       }
     }
     .active {
-      color: $dark;
+      color: $darkGray;
       background-color: $red;
     }
   }

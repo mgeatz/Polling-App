@@ -22,6 +22,11 @@ describe('yesNoApp.v1 module ', function() {
       console.log('$scope.test equals "hello world"...yay!');
     });
 
+    it('scope.fromFactory should equal Welcome Visitor ', function () {
+      expect(scope.chartsFactory).toEqual('Welcome Visitor');
+      console.log('scope.fromFactory equals ', scope.chartsFactory)
+    });
+
   });
 
 });

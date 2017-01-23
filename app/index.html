@@ -46,15 +46,15 @@
         </button>
       </div>
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="true">
-        <ul class="nav navbar-nav">
-          <li><a class="" href="#/view1">Voting</a></li>
-          <li><a class="" href="#/view2">Results</a></li>
+        <ul class="nav navbar-nav" ng-controller="NavCtrl" ng-model="nav">
+          <li><a id="v1" ng-class="{'active': nav == 'alpha'}" href="#/view1">Voting</a></li>
+          <li><a id="v2" ng-class="{'active': nav == 'bravo'}" href="#/view2">Tech Specs</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
   <main class="container">
-    <div class="question">Do You Like Donald Trump?</div>
+    <img src="dist/images/dots-4.png"/>
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please
       <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
@@ -72,7 +72,12 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="routes.js"></script>
+  <script src="nav/nav.service.js"></script>
+  <script src="nav/nav.factory.js"></script>
+  <script src="nav/nav.js"></script>
+  <script src="view1/view1.factory.js"></script>
   <script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>
+
 </body>
 </html>

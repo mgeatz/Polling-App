@@ -1,13 +1,17 @@
 body {
-  background-color: $darkGray;
+  background-color: $gray;
   main {
     margin: auto;
     text-align: center;
   }
   nav {
-    background-color: $dark;
+    background-color: $darkGray;
     ul {
       list-style: none;
     }
+  }
+  img {
+    position: absolute;
+    left: 0;
   }
 }

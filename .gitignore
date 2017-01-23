@@ -4,3 +4,4 @@ tmp
 .css
 .DS_Store
 .idea
+coverage/output
